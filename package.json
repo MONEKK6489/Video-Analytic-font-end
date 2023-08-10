@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^3.1.1",
+    "@pankod/refine": "^2.7.8",
     "@refinedev/cli": "^2.5.1",
     "@refinedev/core": "^4.5.8",
     "@refinedev/inferencer": "^3.1.4",
@@ -32,7 +33,10 @@
     "nookies": "^2.5.2",
     "query-string": "^7.1.1",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "react-media-recorder": "^1.6.6",
+    "react-record-webcam": "^0.0.18",
+    "react-video-recorder": "^3.19.4"
   },
   "devDependencies": {
     "@babel/plugin-syntax-top-level-await": "^7.14.5",

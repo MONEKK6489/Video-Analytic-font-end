@@ -4,7 +4,7 @@ import { GetServerSideProps } from "next";
 
 import { getServerSession } from "next-auth";
 import { authOptions  } from "../api/auth/[...nextauth]";
-import {  } from "@components/login";
+import {  } from "@components/storagetest/login";
 
 export default function Login() {
   const { mutate: login } = useLogin();

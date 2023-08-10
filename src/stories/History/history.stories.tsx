@@ -1,4 +1,4 @@
-import { History }  from "@components/Mone/history"
+import { History }  from "@components/History/history"
 import { RefineWithoutLayout } from "../../../.storybook/RefineWithoutLayout";
 import { FC } from "react";
 import "@styles/globals.css";

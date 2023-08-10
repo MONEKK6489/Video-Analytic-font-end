@@ -1,14 +1,14 @@
-import { Detailcar } from "@components/Mone/Detailcar";
+import { Detail } from "@components/History/element/detail";
 import { RefineWithoutLayout } from "../../../.storybook/RefineWithoutLayout";
 import "@styles/globals.css";
 
 import { FC } from "react";
 
-export const List: typeof Detailcar = (args) => <Detailcar />;
+export const List: typeof Detail = (args) => <Detail />;
 
 export default {
-  title: "History/car",
-  component: Detailcar,
+  title: "ListTable/Detail",
+  component: Detail,
   parameters: {
     nextjs: {
       router: {

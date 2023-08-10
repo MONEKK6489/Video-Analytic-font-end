@@ -1,5 +1,5 @@
-import { Camera }  from "@components/Mone/showcamera"
-import { RefineWithoutLayout } from "../../../.storybook/RefineWithoutLayout";
+import { Camera } from "@components/Camera/showcamera"; 
+import { RefineWithoutLayout } from "../../../.storybook/RefineWithoutLayout"
 import { FC } from "react";
 import "@styles/globals.css";
 
